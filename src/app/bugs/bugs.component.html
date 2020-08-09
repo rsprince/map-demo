@@ -1,0 +1,52 @@
+<mat-accordion>
+	<!-- #docregion basic-panel -->
+	<!-- #docregion hide-toggle -->
+	<mat-expansion-panel>
+		<!-- #enddocregion hide-toggle -->
+				<mat-expansion-panel-header>
+					<mat-panel-title>
+						Clicked Button {{ count }} Times
+					</mat-panel-title>
+					<mat-panel-description>
+					</mat-panel-description>
+				</mat-expansion-panel-header>
+				<p>
+					<button (click)="increaseCount()">
+						Increase Count
+					</button>
+				</p>
+			</mat-expansion-panel>
+
+			<mat-expansion-panel>
+				<!-- #enddocregion hide-toggle -->
+				<mat-expansion-panel-header>
+					<mat-panel-title>
+						Count the Changes to the Observable
+					</mat-panel-title>
+					<mat-panel-description>
+					</mat-panel-description>
+				</mat-expansion-panel-header>
+
+				<h2>
+					The observable has changed {{ observableCount }} times.
+				</h2>
+
+				<div class="example-container">
+					<mat-form-field appearance="fill">
+						<mat-label>Text A</mat-label>
+						<input matInput (keyup.enter)="increaseObservableCount()">
+					</mat-form-field>
+					<br>
+
+					<mat-form-field appearance="fill">
+						<mat-label>Text B</mat-label>
+						<input matInput (keyup.enter)="increaseObservableCount()">
+					</mat-form-field>
+					<br>
+
+				</div>
+					
+
+			</mat-expansion-panel>
+	
+	</mat-accordion>
