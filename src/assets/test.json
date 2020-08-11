@@ -1,0 +1,2286 @@
+[
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "204c95f3-1ac7-4e4f-b1a4-de0593c91fa9",
+       "ID": "1/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.47095714518327",
+          "Lon": "-84.9818229675293",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "1/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:24:40-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "7e6503de-ed1e-4cdf-89ad-6c4ce4a50ef1",
+       "ID": "2/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.46835026696971",
+          "Lon": "-84.98929023742677",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "2/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:24:43-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "d4c5f8eb-191f-4aec-a46b-3f16c95a5ce6",
+       "ID": "3/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.46748129079336",
+          "Lon": "-84.97315406799318",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "3/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:24:45-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "c0cc87e0-86de-421f-bb53-e852d28dc6aa",
+       "ID": "4/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCIH---B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.45966012786285",
+          "Lon": "-84.97538566589357",
+          "Alt": "0"
+       },
+       "ForceSize": "7",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M240 MMG",
+             "Quantity": "2",
+             "AmmoQuantity": "1800"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "14"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "7",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "4/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:24:48-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "eed84767-4ff0-4640-a5e7-0845d501a996",
+       "ID": "5/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCIH---B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.48029783896656",
+          "Lon": "-85.00319480895998",
+          "Alt": "0"
+       },
+       "ForceSize": "7",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M240 MMG",
+             "Quantity": "2",
+             "AmmoQuantity": "1800"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "14"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "7",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "4/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:24:50-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "d43c9e8b-d658-4fb6-99b3-74a0dd571c4b",
+       "ID": "6/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.48225274523601",
+          "Lon": "-84.98431205749513",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "1/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:24:52-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "105471e7-05c1-4bda-b39a-67a224a5b7d6",
+       "ID": "7/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.48891358848039",
+          "Lon": "-84.97100830078125",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "1/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:24:55-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "b2b826ff-20e5-4ab0-97eb-e704522c1007",
+       "ID": "8/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.48949276893972",
+          "Lon": "-84.94268417358398",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "1/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:24:57-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "d9512b75-cc59-4f2f-98b2-9d7a19180a77",
+       "ID": "9/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.46806060917602",
+          "Lon": "-84.84981536865236",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "1/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:24:59-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "2331d510-b14d-4776-af13-08c07dd494f9",
+       "ID": "10/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.33355894864109",
+          "Lon": "-84.71969604492188",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "1/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:25:03-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "8e97522a-608b-436b-80ee-d4aa7495172f",
+       "ID": "11/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.412429054416144",
+          "Lon": "-84.94422912597658",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "1/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:25:04-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "f0cf71d2-e7b0-4dc9-b7ab-c367e9e8bbce",
+       "ID": "12/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.486596829360515",
+          "Lon": "-85.41595458984375",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "1/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:25:06-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "20728788-d9df-4251-bb15-6b03aad0eab0",
+       "ID": "13/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.588477769459146",
+          "Lon": "-84.61944580078126",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "1/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:26:47-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "721f69ed-7b94-41d2-bd06-3a3143995b09",
+       "ID": "14/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "33.35347332342168",
+          "Lon": "-84.03991699218751",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "1/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:26:52-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "f0652c2d-0b5b-4c20-9261-201b5edcc43e",
+       "ID": "15/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.338200271527754",
+          "Lon": "-82.45788574218751",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "2/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:26:56-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "ffba98f9-c8ce-48d1-87d9-5c3b028e7b6a",
+       "ID": "16/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "33.29839499061643",
+          "Lon": "-85.27587890625001",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "1/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:09-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "fa96948a-5d6d-41c6-8125-e270a9cd26cc",
+       "ID": "17/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.89803818160524",
+          "Lon": "-85.5450439453125",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "1/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:10-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "5483c911-c9ec-4d8b-bd2d-94e31d9a5502",
+       "ID": "18/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.93492866908233",
+          "Lon": "-84.06738281250001",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "2/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:12-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "d6483dbe-9291-403e-a991-c362100f56f6",
+       "ID": "19/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "33.47269019266666",
+          "Lon": "-84.254150390625",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "2/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:13-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "1a634978-fbfb-4e83-9704-551cf56b3676",
+       "ID": "20/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "M1126_ICV",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPEVALI------",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "31.658057274089913",
+          "Lon": "-83.50708007812501",
+          "Alt": "0"
+       },
+       "ForceSize": "1",
+       "Personnel": "2",
+       "Item": [
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M19 Grenade Launcher",
+             "Quantity": "1",
+             "AmmoQuantity": "360"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "11/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          },
+          "TextModifiers": {
+             "ReinforcedReduced": []
+          }
+       },
+       "Fuel": "1000",
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:15-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "d915fe91-c2a3-4303-8872-86f25afbce78",
+       "ID": "21/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "M1126_ICV",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPEVALI------",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "31.59725256170666",
+          "Lon": "-86.19873046875001",
+          "Alt": "0"
+       },
+       "ForceSize": "1",
+       "Personnel": "2",
+       "Item": [
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M240 MMG",
+             "Quantity": "0",
+             "AmmoQuantity": "0"
+          },
+          {
+             "Type": "M19 Grenade Launcher",
+             "Quantity": "1",
+             "AmmoQuantity": "360"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "12/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "Fuel": "1000",
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:17-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "5f6df24b-e00e-488c-885e-c753348deb45",
+       "ID": "22/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "M1126_ICV",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPEVALI------",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "31.76086695137955",
+          "Lon": "-86.14929199218751",
+          "Alt": "0"
+       },
+       "ForceSize": "1",
+       "Personnel": "2",
+       "Item": [
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M240 MMG",
+             "Quantity": "0",
+             "AmmoQuantity": "0"
+          },
+          {
+             "Type": "M19 Grenade Launcher",
+             "Quantity": "1",
+             "AmmoQuantity": "360"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "12/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "Fuel": "1000",
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:18-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "f24707aa-6976-4847-a963-f087dd84b22e",
+       "ID": "23/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "M1126_ICV",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPEVALI------",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "31.88688652578083",
+          "Lon": "-85.72631835937501",
+          "Alt": "0"
+       },
+       "ForceSize": "1",
+       "Personnel": "2",
+       "Item": [
+          {
+             "Type": "M2 Machine Gun",
+             "Quantity": "1",
+             "AmmoQuantity": "2000"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "14/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "Fuel": "1000",
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:21-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "e96c0327-23a0-457e-aed1-675b73bab507",
+       "ID": "24/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "M1126_ICV",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPEVALI------",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.25926542645936",
+          "Lon": "-85.2044677734375",
+          "Alt": "0"
+       },
+       "ForceSize": "1",
+       "Personnel": "2",
+       "Item": [
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M19 Grenade Launcher",
+             "Quantity": "1",
+             "AmmoQuantity": "360"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "11/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          },
+          "TextModifiers": {
+             "ReinforcedReduced": []
+          }
+       },
+       "Fuel": "1000",
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:22-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "fd96efc5-7f3b-4d76-8959-fb2e3989891d",
+       "ID": "25/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "M1126_ICV",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPEVALI------",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.46690196868371",
+          "Lon": "-84.9456024169922",
+          "Alt": "0"
+       },
+       "ForceSize": "1",
+       "Personnel": "2",
+       "Item": [
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M240 MMG",
+             "Quantity": "0",
+             "AmmoQuantity": "0"
+          },
+          {
+             "Type": "M19 Grenade Launcher",
+             "Quantity": "1",
+             "AmmoQuantity": "360"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "12/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "Fuel": "1000",
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:26-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "894b77e9-528b-4e35-b2e9-cb7f230de4ff",
+       "ID": "26/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "M1126_ICV",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPEVALI------",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.47588104254515",
+          "Lon": "-84.96482849121095",
+          "Alt": "0"
+       },
+       "ForceSize": "1",
+       "Personnel": "2",
+       "Item": [
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M19 Grenade Launcher",
+             "Quantity": "1",
+             "AmmoQuantity": "360"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "11/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          },
+          "TextModifiers": {
+             "ReinforcedReduced": []
+          }
+       },
+       "Fuel": "1000",
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:28-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "ce7d1b56-ce3b-495f-94aa-5f1d0f3ed64b",
+       "ID": "27/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "M1126_ICV",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPEVALI------",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.48399040404987",
+          "Lon": "-84.96105194091798",
+          "Alt": "0"
+       },
+       "ForceSize": "1",
+       "Personnel": "2",
+       "Item": [
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M19 Grenade Launcher",
+             "Quantity": "1",
+             "AmmoQuantity": "360"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "11/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          },
+          "TextModifiers": {
+             "ReinforcedReduced": []
+          }
+       },
+       "Fuel": "1000",
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:30-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "d03a99b3-92ae-488f-93a4-27939f93f709",
+       "ID": "28/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.48384560043021",
+          "Lon": "-84.96774673461915",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "3/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:33-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "2935af30-2a03-4ca5-a2de-ac4d59e76fe9",
+       "ID": "29/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "M1126_ICV",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPEVALI------",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "31.88688652578083",
+          "Lon": "-85.01220703125",
+          "Alt": "0"
+       },
+       "ForceSize": "1",
+       "Personnel": "2",
+       "Item": [
+          {
+             "Type": "M2 Machine Gun",
+             "Quantity": "1",
+             "AmmoQuantity": "2000"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "13/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "Fuel": "1000",
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:42-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "b06b0259-83d4-4ee7-85aa-73e4f258a768",
+       "ID": "30/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCIH---B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "32.27784451498272",
+          "Lon": "-83.46313476562501",
+          "Alt": "0"
+       },
+       "ForceSize": "7",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M240 MMG",
+             "Quantity": "2",
+             "AmmoQuantity": "1800"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "14"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "7",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "4/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:43-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "79113f9a-5677-4254-b7fa-c99cb2d3bf23",
+       "ID": "31/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCI----B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "33.14675022877648",
+          "Lon": "-84.60571289062501",
+          "Alt": "0"
+       },
+       "ForceSize": "9",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M320 Grenade Launcher",
+             "Quantity": "2",
+             "AmmoQuantity": "18"
+          },
+          {
+             "Type": "M249 SAW",
+             "Quantity": "2",
+             "AmmoQuantity": "1200"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "18"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "9",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M4 Javelin",
+             "Quantity": "1",
+             "AmmoQuantity": "2"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "3/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:45-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "2408fe3b-6e08-4ae5-90a9-742e9451b583",
+       "ID": "32/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "DISMOUNT",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPUCIH---B---",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "41.50857729743935",
+          "Lon": "-18.457031250000004",
+          "Alt": "0"
+       },
+       "ForceSize": "7",
+       "Item": [
+          {
+             "Type": "M4 Rifle",
+             "Quantity": "7",
+             "AmmoQuantity": "1470"
+          },
+          {
+             "Type": "M240 MMG",
+             "Quantity": "2",
+             "AmmoQuantity": "1800"
+          },
+          {
+             "Type": "Frag Grenade",
+             "Quantity": "14"
+          },
+          {
+             "Type": "Smoke Grenade",
+             "Quantity": "7",
+             "AmmoQuantity": "48"
+          },
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "4/1/A/1-2IN",
+          "Color": {
+             "Red": "128",
+             "Green": "224",
+             "Blue": "255"
+          }
+       },
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:28:02-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": [
+             {
+                "Modified": "2019-05-13T13:09:47-04:00",
+                "ModifiedBy": "admin"
+             },
+             {
+                "Modified": "2019-10-08T16:27:52-04:00",
+                "ModifiedBy": "joe"
+             }
+          ]
+       }
+    },
+    {
+       "ParentGUID": "dae1ecd8-abf4-411f-8006-dec65509b7c8",
+       "GUID": "0fae8782-7bbd-461c-9ee8-052c7e915017",
+       "ID": "33/1/A/1-2IN",
+       "GroupID": "1/A/1-2IN",
+       "UnitType": "M1126_ICV",
+       "KnownAtStart": "false",
+       "SymbolCode": "SFGPEVALI------",
+       "FightAsUnit": "true",
+       "Force": "BLUEFOR",
+       "Competency": "1",
+       "Aggressiveness": "0.5",
+       "Location": {
+          "Lat": "40.17887331434698",
+          "Lon": "-5.097656250000001",
+          "Alt": "0"
+       },
+       "ForceSize": "1",
+       "Personnel": "2",
+       "Item": [
+          {
+             "Type": "Night Vision 100%",
+             "Quantity": "1"
+          },
+          {
+             "Type": "M19 Grenade Launcher",
+             "Quantity": "1",
+             "AmmoQuantity": "360"
+          }
+       ],
+       "Ignore": "false",
+       "IsPredicted": "false",
+       "UnitCategory": "Maneuver",
+       "Gui": {
+          "GUIID": "11/1/A/1-2IN",
+          "Color": {
+             "Red": "255",
+             "Green": "0",
+             "Blue": "0"
+          },
+          "TextModifiers": {
+             "ReinforcedReduced": []
+          }
+       },
+       "Fuel": "1000",
+       "TemplateLabel": "1/A/1-2IN Stryker ICV Dismnt",
+       "Commanded": "true",
+       "EchelonGranularity": "COMPANY",
+       "Metadata": {
+          "Modified": "2019-10-08T16:27:55-04:00",
+          "ModifiedBy": "joe",
+          "PreviousChanges": {
+             "Modified": "2019-05-13T13:09:47-04:00",
+             "ModifiedBy": "admin"
+          }
+       }
+    }
+ ]
