@@ -3,7 +3,7 @@ import { latLng, tileLayer } from 'leaflet';
 import { FeatureService } from './feature.service';
 import * as Leaflet from 'leaflet';
 import { antPath } from 'leaflet-ant-path';
-
+import { markTimeline } from 'console';
 
 @Component({
   selector: 'feature',
@@ -14,8 +14,9 @@ export class FeatureComponent implements OnInit {
 
   title = 'leafletApps';
   map: Leaflet.Map;
-
   mapData: any;
+  range: number;
+  form: any = {range: ''};
 
   constructor(private featureService: FeatureService) { }
 
@@ -33,6 +34,11 @@ export class FeatureComponent implements OnInit {
   //  center: latLng([ 46.879966, -121.726909 ])
   //};
 
+  setRange() {
+    this.range = this.form.range;
+    console.log("Set range: " + this.range);
+  }
+
   getData(): any {
     this.featureService.getData()
     .subscribe(data => {
@@ -43,18 +49,30 @@ export class FeatureComponent implements OnInit {
   }
 
   drawMap(mapdata) {
-    this.map = Leaflet.map('map').setView([mapdata[0].Location.Lat, mapdata[0].Location.Lon], 5);
+    // center map
+    this.map = Leaflet.map('map').setView([mapdata[0].Location.Lat, mapdata[0].Location.Lon], 10);
     Leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '©Angular LeafLet',
     }).addTo(this.map);
 
-    mapdata.forEach(item => {
-      // console.log(item.ID, item.Location.Lat, item.Location.Lon, item.Gui.Color.Red, item.Gui.Color.Green, item.Gui.Color.Blue);
-      Leaflet.circle(
+    let marker: any;
+    let markerArray: any[];
+
+    mapdata.forEach((item, index, array) => {
+      marker = Leaflet.circle(
         [item.Location.Lat, item.Location.Lon], 
         {fillColor: 'rgb('+ item.Gui.Color.Red + ',' + item.Gui.Color.Green + ',' + item.Gui.Color.Blue +')', fillOpacity: 0.5, radius: 5000}
-      )
-      .addTo(this.map).bindPopup(item.ID).openPopup();
+      );
+      // add markers to an array
+      markerArray.push(marker);
+
+      marker.addTo(this.map).bindPopup(item.ID).openPopup();
+      marker.setStyle({fillColor: 'red'});
+    });
+
+    // Compare marker points
+    markerArray.forEach((item, index, array) => {
+      
     });
 
     //Leaflet.marker([34, 77]).addTo(this.map).bindPopup('Leh').openPopup();
