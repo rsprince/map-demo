@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import * as xml2js from 'xml2js';
 import { map, filter, catchError, mergeMap } from 'rxjs/operators';
+import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 
 
 
@@ -11,7 +12,8 @@ import { map, filter, catchError, mergeMap } from 'rxjs/operators';
 export class FeatureService {
 
   data: any;
-  //dataUrl: string = 'assets/data.xml';
+  xmldata: any = {};
+  xmlDataUrl: string = 'assets/data.xml';
   dataUrl: string = 'assets/test.json';
 
   constructor(private http: HttpClient) { }
@@ -21,17 +23,25 @@ export class FeatureService {
     return this.data;
   }
 
-  //getData() {
-  //  this.http.get(this.dataUrl)
-  //  .subscribe(data => {
-  //    this.data = data;
-  //    console.log("Data: ", this.data);
-  //  });
-  //  const parser = new xml2js.Parser({ strict: false, trim: true });
-  //  parser.parseString(this.data, (err, result) => {
-  //    console.log("Result: ", result);
-  //    return result;
-  //  });
-  //}
+  getXMLData() {  
+    this.http.get(this.xmlDataUrl,  
+      {  
+        headers: new HttpHeaders()  
+          .set('Content-Type', 'text/xml')  
+          .append('Access-Control-Allow-Methods', 'GET')  
+          .append('Access-Control-Allow-Origin', '*')  
+          .append('Access-Control-Allow-Headers', "Access-Control-Allow-Headers, Access-Control-Allow-Origin, Access-Control-Request-Method"),  
+        responseType: 'text'  
+      })  
+      .subscribe(data => { 
+          this.xmldata = data;
+          const parser = new xml2js.Parser({ strict: false, trim: true });
+          parser.parseString(this.xmldata, (err, result) => {
+            console.log("Result: ", result.INTERVIEW.UNIT);
+            return result.INTERVIEW.UNIT;
+          });       
+        }
+      );  
+  }
 
 }

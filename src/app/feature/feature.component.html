@@ -1,14 +1,16 @@
 <div class="row">
-	<div class="col-md-9">
+	<div class="col-md-10">
 		<h1>Map Feature</h1>
 	</div>
-	<div class="col-md-3">
+	<div class="col-md-2 text-right">
 		<mat-form-field appearance="fill">
-			<mat-label>Range</mat-label>
+			<mat-label>Range in miles</mat-label>
 			<input matInput 
+				id="range.input"
 				name="form.range"
 				[(ngModel)]="form.range"
-				(keyup.enter)="setRange()">
+				(keyup.enter)="setRange()"
+				onfocus="this.value=''">
 		</mat-form-field>
 	</div>
 </div>
