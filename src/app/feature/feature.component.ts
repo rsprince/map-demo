@@ -3,6 +3,8 @@ import { latLng, tileLayer } from 'leaflet';
 import { FeatureService } from './feature.service';
 import * as Leaflet from 'leaflet';
 import { antPath } from 'leaflet-ant-path';
+import * as xml2js from 'xml2js';
+import { Console } from 'console';
 
 
 @Component({
@@ -24,7 +26,7 @@ export class FeatureComponent implements OnInit {
   constructor(private featureService: FeatureService) { }
 
   ngOnInit(): void {
-    this.getData();
+    //this.getData();
     this.getXMLData();
   }
 
@@ -39,7 +41,19 @@ export class FeatureComponent implements OnInit {
   //};
 
   getXMLData(): any {
-    this.featureService.getXMLData();
+    // get xml data from the service
+    this.featureService.getXMLData()
+    .subscribe(data => { 
+        const parser = new xml2js.Parser({ strict: false, trim: true });
+        parser.parseString(data, (err, result) => {
+          result = result.INTERVIEW.UNIT;
+          console.log("Result: ", result);
+          this.mapData = result;
+          this.drawMap(this.mapData);
+        });       
+      }
+    );
+    return true;
   }
 
   getData(): any {
@@ -52,10 +66,14 @@ export class FeatureComponent implements OnInit {
     });
   }
 
+
   drawMap(mapdata) {
-    // center map (not working here)
-    this.map = Leaflet.map('map').setView([mapdata[0].Location.Lat, mapdata[0].Location.Lon], 4);
-    console.log("Center: ", [mapdata[0].Location.Lat, mapdata[0].Location.Lon]);
+    console.log("draw:", mapdata[0].LOCATION[0].LON);
+    // center map
+    let latitude = mapdata[0].LOCATION[0].LAT[0];
+    let longitude = mapdata[0].LOCATION[0].LON[0];
+    console.log("Center: ", latitude);
+    this.map = Leaflet.map('map').setView([latitude, longitude], 4);
     // Set a map layer, add to map
     Leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '©Angular LeafLet',
@@ -63,16 +81,17 @@ export class FeatureComponent implements OnInit {
 
     // create markers
     mapdata.forEach((item, index, array) => {
+      console.log("Create markers: ", item.GUI[0].COLOR[0].RED[0]);
       this.marker = Leaflet.circle(
-        [item.Location.Lat, item.Location.Lon], 
-        {fillColor: 'rgb('+ item.Gui.Color.Red + ',' + item.Gui.Color.Green + ',' + item.Gui.Color.Blue +')', fillOpacity: 0.5, radius: 5000}
+        [item.LOCATION[0].LAT[0], item.LOCATION[0].LON[0]], 
+        {fillColor: 'rgb('+ item.GUI[0].COLOR[0].RED[0] + ',' + item.GUI[0].COLOR[0].GREEN[0] + ',' + item.GUI[0].COLOR[0].BLUE[0] +')', fillOpacity: 0.5, radius: 5000}
       );
       // add markers to an array for comparison
       this.markerArray.push(this.marker);
       //console.log("markers: ", markerArray);
       
       // Add pop up with marker ID
-      this.marker.addTo(this.map).bindPopup(item.ID).openPopup();
+      this.marker.addTo(this.map).bindPopup(item.ID[0]).openPopup();
 
 		});
 		
@@ -82,12 +101,6 @@ export class FeatureComponent implements OnInit {
     //  { color: '#FF0000', weight: 5, opacity: 0.6 })
     //  .addTo(this.map);
     
-  }
-  
-  centerMapOnMarker(map, marker) {
-    var latLngs = [ marker.getLatLng() ];
-    var markerBounds = Leaflet.latLngBounds(latLngs);
-    map.fitBounds(markerBounds);
   }
 	
 	setRange() {
@@ -140,7 +153,7 @@ export class FeatureComponent implements OnInit {
 		// Reset original marker colors
 		for(let i=0; i < this.mapData.length; i++) {
 			console.log("Reset: ", this.mapData[i]);
-			this.markerArray[i].setStyle({fillColor: 'rgb('+ this.mapData[i].Gui.Color.Red + ',' + this.mapData[i].Gui.Color.Green + ',' + this.mapData[i].Gui.Color.Blue +')'});
+			this.markerArray[i].setStyle({fillColor: 'rgb('+ this.mapData[i].GUI[0].COLOR[0].RED[0] + ',' + this.mapData[i].GUI[0].COLOR[0].GREEN[0] + ',' + this.mapData[i].GUI[0].COLOR[0].BLUE[0] +')'});
 		}
 	}
 
